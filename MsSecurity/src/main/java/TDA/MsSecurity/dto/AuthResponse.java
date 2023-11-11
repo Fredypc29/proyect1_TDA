@@ -12,11 +12,7 @@ public class AuthResponse implements Serializable {
         this.userName = userName;    
     }
 
-    // public AuthResponse(String token, String userName, String accessTokenExpiration) {
-    //     this.token = token;
-    //     this.userName = userName;
-    //     this.accessTokenExpiration = accessTokenExpiration;
-    // }
+    
 
     public String getUserName() {
         return userName;
