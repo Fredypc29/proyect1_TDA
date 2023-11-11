@@ -8,7 +8,8 @@ public class AuthRequest implements Serializable {
     private String usuario;
     private String clave;
     private String dni;
- 
+    private string edad;
+    
     public AuthRequest() {
  
     }
