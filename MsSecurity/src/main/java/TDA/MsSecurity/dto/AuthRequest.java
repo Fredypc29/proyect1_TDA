@@ -8,8 +8,12 @@ public class AuthRequest implements Serializable {
     private String usuario;
     private String clave;
     private String dni;
-    private string edad;
+    private String edad;
     
+
+    private String DNI  ;
+ 
+>>>>>>> 1ee0e3b921edb818ac7cad632e7d7c0287e53527
     public AuthRequest() {
  
     }
